@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		18F3EEC520F8740100D7DBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEC420F8740100D7DBF3 /* AppDelegate.swift */; };
-		18F3EEC720F8740200D7DBF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEC620F8740200D7DBF3 /* ViewController.swift */; };
 		18F3EECA20F8740200D7DBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3EEC820F8740200D7DBF3 /* Main.storyboard */; };
 		18F3EECD20F8740200D7DBF3 /* ButtonBarPagerTapStrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EECB20F8740200D7DBF3 /* ButtonBarPagerTapStrip.xcdatamodeld */; };
 		18F3EECF20F8741100D7DBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F3EECE20F8741100D7DBF3 /* Assets.xcassets */; };
 		18F3EED220F8741100D7DBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3EED020F8741100D7DBF3 /* LaunchScreen.storyboard */; };
+		18F3EEDA20F8745100D7DBF3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 18F3EED920F8745100D7DBF3 /* Podfile */; };
+		18F3EEDE20F881F500D7DBF3 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEDD20F881F500D7DBF3 /* ParentViewController.swift */; };
+		18F3EEE020F883F900D7DBF3 /* ChildViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEDF20F883F900D7DBF3 /* ChildViewController1.swift */; };
+		18F3EEE220F8841000D7DBF3 /* ChildViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEE120F8841000D7DBF3 /* ChildViewController2.swift */; };
+		AF6E552D693B5F081F96AA49 /* Pods_ButtonBarPagerTapStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A97446F24C7D558D5064B5 /* Pods_ButtonBarPagerTapStrip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18F3EEC120F8740100D7DBF3 /* ButtonBarPagerTapStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonBarPagerTapStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3EEC420F8740100D7DBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18F3EEC620F8740200D7DBF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F3EEC920F8740200D7DBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F3EECC20F8740200D7DBF3 /* ButtonBarPagerTapStrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ButtonBarPagerTapStrip.xcdatamodel; sourceTree = "<group>"; };
 		18F3EECE20F8741100D7DBF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F3EED120F8741100D7DBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F3EED320F8741100D7DBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F3EED920F8745100D7DBF3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18F3EEDD20F881F500D7DBF3 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		18F3EEDF20F883F900D7DBF3 /* ChildViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController1.swift; sourceTree = "<group>"; };
+		18F3EEE120F8841000D7DBF3 /* ChildViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController2.swift; sourceTree = "<group>"; };
+		1BA275299F1EDAA6B174DECA /* Pods-ButtonBarPagerTapStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonBarPagerTapStrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonBarPagerTapStrip/Pods-ButtonBarPagerTapStrip.release.xcconfig"; sourceTree = "<group>"; };
+		E1A97446F24C7D558D5064B5 /* Pods_ButtonBarPagerTapStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonBarPagerTapStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8B5D95D06CF0615A268888 /* Pods-ButtonBarPagerTapStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonBarPagerTapStrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonBarPagerTapStrip/Pods-ButtonBarPagerTapStrip.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6E552D693B5F081F96AA49 /* Pods_ButtonBarPagerTapStrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +51,11 @@
 		18F3EEB820F8740100D7DBF3 = {
 			isa = PBXGroup;
 			children = (
+				18F3EED920F8745100D7DBF3 /* Podfile */,
 				18F3EEC320F8740100D7DBF3 /* ButtonBarPagerTapStrip */,
 				18F3EEC220F8740100D7DBF3 /* Products */,
+				671ECC5BB60230B152111469 /* Pods */,
+				31A9DB850AAD7329C2889D0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +71,33 @@
 			isa = PBXGroup;
 			children = (
 				18F3EEC420F8740100D7DBF3 /* AppDelegate.swift */,
-				18F3EEC620F8740200D7DBF3 /* ViewController.swift */,
 				18F3EEC820F8740200D7DBF3 /* Main.storyboard */,
 				18F3EECE20F8741100D7DBF3 /* Assets.xcassets */,
 				18F3EED020F8741100D7DBF3 /* LaunchScreen.storyboard */,
 				18F3EED320F8741100D7DBF3 /* Info.plist */,
 				18F3EECB20F8740200D7DBF3 /* ButtonBarPagerTapStrip.xcdatamodeld */,
+				18F3EEDD20F881F500D7DBF3 /* ParentViewController.swift */,
+				18F3EEDF20F883F900D7DBF3 /* ChildViewController1.swift */,
+				18F3EEE120F8841000D7DBF3 /* ChildViewController2.swift */,
 			);
 			path = ButtonBarPagerTapStrip;
+			sourceTree = "<group>";
+		};
+		31A9DB850AAD7329C2889D0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1A97446F24C7D558D5064B5 /* Pods_ButtonBarPagerTapStrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		671ECC5BB60230B152111469 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA8B5D95D06CF0615A268888 /* Pods-ButtonBarPagerTapStrip.debug.xcconfig */,
+				1BA275299F1EDAA6B174DECA /* Pods-ButtonBarPagerTapStrip.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F3EED620F8741100D7DBF3 /* Build configuration list for PBXNativeTarget "ButtonBarPagerTapStrip" */;
 			buildPhases = (
+				9418A36F6AE892B275D68D82 /* [CP] Check Pods Manifest.lock */,
 				18F3EEBD20F8740100D7DBF3 /* Sources */,
 				18F3EEBE20F8740100D7DBF3 /* Frameworks */,
 				18F3EEBF20F8740100D7DBF3 /* Resources */,
+				B33207A7CA66526EF05C51E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +162,51 @@
 			files = (
 				18F3EED220F8741100D7DBF3 /* LaunchScreen.storyboard in Resources */,
 				18F3EECF20F8741100D7DBF3 /* Assets.xcassets in Resources */,
+				18F3EEDA20F8745100D7DBF3 /* Podfile in Resources */,
 				18F3EECA20F8740200D7DBF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9418A36F6AE892B275D68D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonBarPagerTapStrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33207A7CA66526EF05C51E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ButtonBarPagerTapStrip/Pods-ButtonBarPagerTapStrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButtonBarPagerTapStrip/Pods-ButtonBarPagerTapStrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18F3EEBD20F8740100D7DBF3 /* Sources */ = {
@@ -139,8 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F3EECD20F8740200D7DBF3 /* ButtonBarPagerTapStrip.xcdatamodeld in Sources */,
-				18F3EEC720F8740200D7DBF3 /* ViewController.swift in Sources */,
+				18F3EEE020F883F900D7DBF3 /* ChildViewController1.swift in Sources */,
 				18F3EEC520F8740100D7DBF3 /* AppDelegate.swift in Sources */,
+				18F3EEE220F8841000D7DBF3 /* ChildViewController2.swift in Sources */,
+				18F3EEDE20F881F500D7DBF3 /* ParentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +359,13 @@
 		};
 		18F3EED720F8741100D7DBF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8B5D95D06CF0615A268888 /* Pods-ButtonBarPagerTapStrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = ButtonBarPagerTapStrip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +379,13 @@
 		};
 		18F3EED820F8741100D7DBF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA275299F1EDAA6B174DECA /* Pods-ButtonBarPagerTapStrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = ButtonBarPagerTapStrip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
